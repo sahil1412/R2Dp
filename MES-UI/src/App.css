@@ -1,0 +1,17 @@
+.navbar-link,.navbar-link:visited,.navbar-link:hover,.navbar-link:active
+{
+  color:#212529;
+  text-decoration: none;
+}
+.link-white,.link-white:active,.link-white:hover,.link-white:visited
+{
+  color:#ffffff;
+  text-decoration: none;
+}
+.logo-anzo
+{
+ width: 100%;
+ margin-left: 10rem;
+ display: flex;
+ justify-content: flex-end;
+}

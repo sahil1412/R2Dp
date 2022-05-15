@@ -1,0 +1,49 @@
+.table-attribute
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.table-attribute td
+{
+    padding: 10px 6px;
+}
+.table-attribute input
+{
+    border: none;
+    outline: none;
+}
+.force-class
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.red-text
+{
+color:red !important;
+}
+.green-text
+{
+color:green !important;
+}
+.select-wrap
+{
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+}
+.select-menu
+{
+    width:95%;
+}
+.ant-input
+{
+    height: 32px !important;
+}
+.ant-input:focus
+{
+    box-shadow: none !important;
+}
+

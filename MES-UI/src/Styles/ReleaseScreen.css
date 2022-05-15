@@ -1,0 +1,139 @@
+.navbar-background
+{
+    height:4.5rem !important ;
+}
+.navbar>.container
+{
+ justify-content: flex-start !important;
+}
+.navbar-brand
+{
+    padding: 0 1.5rem !important;
+    font-size: 1.1rem !important;
+}
+.dropdown-menu[data-bs-popper]
+{
+    margin-top: .5rem !important;
+}
+.po-box
+{
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid rgba(60, 64, 67, 0.3);
+}
+.machine-status-box
+{
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid rgba(60, 64, 67, 0.3);
+}
+.release-button
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-container
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem 0rem;
+    margin: 2rem 0rem;
+}
+.input-container
+{
+    width: 90%;
+    display: flex;
+}
+.input-container:last-child
+{
+    border-bottom: 1px solid #212529;
+}
+.input-tag
+{
+    width:40%;
+    height:2.5rem;
+    border:1px solid #212529;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: .5rem;
+    border-right: none;
+    border-bottom: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+.input-value
+{
+    width:60%;
+    height:2.5rem;
+    border:1px solid #212529;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: .5rem;
+    border-bottom: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+.release-button button
+{
+  outline:none;
+  border: 2px solid #0E6DFB;
+  background-color: white;
+  color:#0E6DFB ;
+  border-radius: .3rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding:.3rem .7rem;
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  transition: all .3s ease-in-out;
+}
+.release-button button:hover
+{
+  background-color: #0E6DFB;
+  color:#ffffff ;
+}
+.input-value>input
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.input-value>input:focus
+{
+    border: none;
+    outline: none;
+}
+.input-value>select
+{
+    width: 97%;
+    height: 75%;
+    background-color: white;
+}
+.input-value>select:focus
+{
+    outline: none;
+}
+.machine-head
+{
+    font-weight: bold !important;
+    font-size: 1rem !important;
+}
+.table-machine
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.border-bt
+{
+ border-bottom: 1px solid #C4C5C6;
+}

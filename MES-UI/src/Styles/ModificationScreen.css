@@ -1,0 +1,11 @@
+.btn-update
+{
+    outline: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: rgb(0, 60, 189);
+    color: white;
+    width: fit-content;
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+}
